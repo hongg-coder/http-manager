@@ -1,0 +1,28 @@
+{
+    "name": "hgg/http-manager",
+    "description": "",
+    "type": "library",
+    "require": {
+        "php-http/guzzle6-adapter":"v1.1.*",
+        "symfony/event-dispatcher": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hgg\\HttpManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "honglvshi",
+            "email": "1569498875@qq.com"
+        }
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
+}
